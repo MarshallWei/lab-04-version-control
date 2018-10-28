@@ -20,8 +20,8 @@ nano temp.txt
 Write the command that you used to do this, and the last two lines of output.
 ----------
 ls
-Pictures                                        xgen
-public
+hello.sh  nano/  temp.txt/
+
 
 ==========
 4. Run the same command, but look for a specific process.  (It's the version of the command that has | grep ...).  Look for the program that you started to edit a file, nano.
@@ -59,6 +59,7 @@ Quit and save when you're done.
 
 What command did you use to do this?
 ----------
+nano hello.sh
 
 
 ==========
@@ -66,7 +67,7 @@ What command did you use to do this?
 
 Write the commands that you used to do this below.
 ----------
-
+chmod u+x hello.sh
 
 ==========
 10. Run your script (hello.sh).
@@ -78,17 +79,17 @@ How did you do this?  What was the output?
 ==========
 11. Change to the root directory.  Try running your script again (hello.sh).  What was the output (if there's an error, write it out)?
 ----------
-
+cd 
 
 ==========
 12. Now trying using the full, absolute path to your script (that is, starting with /...).  What did you write in?  What did it do?
 ----------
-
+/
 
 ==========
 13.  Go back to the directory that your hello.sh script was in.  What command did you use to change to this directory? 
 ----------
-
+cd 
 
 ==========
 14. Type in the following command:
@@ -97,6 +98,7 @@ echo $PATH
 
 Write down the output of this command
 ----------
+/c/Users/LenaZ/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/LenaZ/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cmd:/c/Users/LenaZ/AppData/Local/Microsoft/WindowsApps:/usr/bin/vendor_perl:/usr/bin/core_perl
 
 
 ==========
@@ -106,6 +108,8 @@ env
 
 Write down the last two lines of output for this command
 ----------
+/WINDOWS/System32/WindowsPowerShell/v1.0:/cmd:/c/Users/LenaZ/AppData/Local/Microsoft/WindowsApps:/usr/bin/vendor_perl:/usr/bin/core_perl
+
 
 
 ==========
@@ -119,6 +123,7 @@ echo $PATH
 
 Write down the output of the last command.  It should include your home folder.
 ----------
+/c/Users/LenaZ/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/LenaZ/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cmd:/c/Users/LenaZ/AppData/Local/Microsoft/WindowsApps:/usr/bin/vendor_perl:/usr/bin/core_perl:/Users/LenaZ
 
 
 ==========
