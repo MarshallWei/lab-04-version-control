@@ -20,7 +20,43 @@ nano temp.txt
 Write the command that you used to do this, and the last two lines of output.
 ----------
 ls
-hello.sh  nano/  temp.txt/
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ M.T/
+ MicrosoftEdgeBackups/
+ MT/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{d3a99819-c794-11e8-9841-448a5b979d5a}.TM.blf
+ NTUSER.DAT{d3a99819-c794-11e8-9841-448a5b979d5a}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d3a99819-c794-11e8-9841-448a5b979d5a}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+
 
 
 ==========
