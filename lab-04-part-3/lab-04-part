@@ -19,44 +19,9 @@ nano temp.txt
 
 Write the command that you used to do this, and the last two lines of output.
 ----------
-ls
-'3D Objects'/
- AppData/
-'Application Data'@
- Contacts/
- Cookies@
-'Creative Cloud Files'/
- Desktop/
- Documents/
- Downloads/
- Favorites/
- IntelGraphicsProfiles/
- Links/
-'Local Settings'@
- M.T/
- MicrosoftEdgeBackups/
- MT/
- Music/
-'My Documents'@
- NetHood@
- NTUSER.DAT
- ntuser.dat.LOG1
- ntuser.dat.LOG2
- NTUSER.DAT{d3a99819-c794-11e8-9841-448a5b979d5a}.TM.blf
- NTUSER.DAT{d3a99819-c794-11e8-9841-448a5b979d5a}.TMContainer00000000000000000001.regtrans-ms
- NTUSER.DAT{d3a99819-c794-11e8-9841-448a5b979d5a}.TMContainer00000000000000000002.regtrans-ms
- ntuser.ini
- OneDrive/
- Pictures/
- PrintHood@
- Recent@
-'Saved Games'/
- Searches/
- SendTo@
-'Start Menu'@
- Templates@
- Videos/
-
+ps aux
+Applications/Go
+student           2689   0.0  0.2  4898476  81720   ??  S     3:22PM   0:00.43 /Applications/Go
 
 
 ==========
@@ -64,8 +29,9 @@ ls
 
 Write the command that you used to do this, and all of the output.
 ----------
-
-
+ ps aux | grep -i temp.txt
+student           2865   0.0  0.0  4258652     24 s000  S+    3:37PM   0:00.00 grep -i temp.txt
+student           2839   0.0  0.0  4277248   1192 s001  S+    3:34PM   0:00.00 nano temp.txt
 ==========
 5. Stop (kill) the process that's called nano "temp.txt" by using the process id shown in the output of your previous command (first number after user name).
 
@@ -76,7 +42,7 @@ Write the command that you used to do this, and all of the output.
 6. Go to your other terminal window.  What happened to nano?  What was the message on the screen?
 
 ----------
-
+Received SIGHUP or SIGTERM
 
 ==========
 7. Close the terminal window that nano was in, and go back to the terminal where you ran ps.
@@ -110,12 +76,45 @@ chmod u+x hello.sh
 
 How did you do this?  What was the output?
 ----------
+I typed ./hello.sh
 
-
+/Users/student
+ent-v314-010:~ student$ ls
+Adlm			Pictures		mtec1003-lab-03.tar.gz
+Adobe			Public			nano.save
+Applications		QLData			pymel.log
+DavidC			Things			steel
+Dcalixto		aardvark		stuff
+Desktop			backup			sum.html
+Documents		copy_to_backup.sh.	temp.txt
+Downloads		foolingAround.html	tempfile.txt
+Library			hello.sh		tempt.txt
+MPLABXProjects		ipe.properties		test
+MT			isus			xgen
+Movies			lab4			yumilka1.html
+Music			mtec1002-lab-03
+New Unity Project	mtec1003-lab-03
+ent-v314-010:~ student$ nano hello.sh
+ent-v314-010:~ student$ nano hello.sh
+ent-v314-010:~ student$ ./hello.sh
+Adlm			Pictures		mtec1003-lab-03.tar.gz
+Adobe			Public			nano.save
+Applications		QLData			pymel.log
+DavidC			Things			steel
+Dcalixto		aardvark		stuff
+Desktop			backup			sum.html
+Documents		copy_to_backup.sh.	temp.txt
+Downloads		foolingAround.html	tempfile.txt
+Library			hello.sh		tempt.txt
+MPLABXProjects		ipe.properties		test
+MT			isus			xgen
+Movies			lab4			yumilka1.html
+Music			mtec1002-lab-03
+New Unity Project	mtec1003-lab-03
 ==========
 11. Change to the root directory.  Try running your script again (hello.sh).  What was the output (if there's an error, write it out)?
 ----------
-cd 
+
 
 ==========
 12. Now trying using the full, absolute path to your script (that is, starting with /...).  What did you write in?  What did it do?
