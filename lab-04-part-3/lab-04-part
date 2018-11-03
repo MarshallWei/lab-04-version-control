@@ -77,7 +77,7 @@ chmod u+x hello.sh
 How did you do this?  What was the output?
 ----------
 I typed ./hello.sh
-
+Hello.sh contained the command ls, whose output is shown below.
 /Users/student
 ent-v314-010:~ student$ ls
 Adlm			Pictures		mtec1003-lab-03.tar.gz
