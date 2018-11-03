@@ -114,17 +114,51 @@ New Unity Project	mtec1003-lab-03
 ==========
 11. Change to the root directory.  Try running your script again (hello.sh).  What was the output (if there's an error, write it out)?
 ----------
-
+It did the exact same thing, which was use the command ls and showed the same output, which was:
+/Users/student
+ent-v314-010:~ student$ ls
+Adlm			Pictures		mtec1003-lab-03.tar.gz
+Adobe			Public			nano.save
+Applications		QLData			pymel.log
+DavidC			Things			steel
+Dcalixto		aardvark		stuff
+Desktop			backup			sum.html
+Documents		copy_to_backup.sh.	temp.txt
+Downloads		foolingAround.html	tempfile.txt
+Library			hello.sh		tempt.txt
+MPLABXProjects		ipe.properties		test
+MT			isus			xgen
+Movies			lab4			yumilka1.html
+Music			mtec1002-lab-03
+New Unity Project	mtec1003-lab-03
+ent-v314-010:~ student$ nano hello.sh
+ent-v314-010:~ student$ nano hello.sh
+ent-v314-010:~ student$ ./hello.sh
+Adlm			Pictures		mtec1003-lab-03.tar.gz
+Adobe			Public			nano.save
+Applications		QLData			pymel.log
+DavidC			Things			steel
+Dcalixto		aardvark		stuff
+Desktop			backup			sum.html
+Documents		copy_to_backup.sh.	temp.txt
+Downloads		foolingAround.html	tempfile.txt
+Library			hello.sh		tempt.txt
+MPLABXProjects		ipe.properties		test
+MT			isus			xgen
+Movies			lab4			yumilka1.html
+Music			mtec1002-lab-03
+New Unity Project	mtec1003-lab-03
 
 ==========
 12. Now trying using the full, absolute path to your script (that is, starting with /...).  What did you write in?  What did it do?
 ----------
-/
+/...hello.sh
+Nothing happened
 
 ==========
 13.  Go back to the directory that your hello.sh script was in.  What command did you use to change to this directory? 
-----------
-cd 
+---------
+cd~
 
 ==========
 14. Type in the following command:
@@ -170,7 +204,39 @@ hello.sh
 
 It should work now!  What is the output?
 ----------
-
+/Users/student
+ent-v314-010:~ student$ ls
+Adlm			Pictures		mtec1003-lab-03.tar.gz
+Adobe			Public			nano.save
+Applications		QLData			pymel.log
+DavidC			Things			steel
+Dcalixto		aardvark		stuff
+Desktop			backup			sum.html
+Documents		copy_to_backup.sh.	temp.txt
+Downloads		foolingAround.html	tempfile.txt
+Library			hello.sh		tempt.txt
+MPLABXProjects		ipe.properties		test
+MT			isus			xgen
+Movies			lab4			yumilka1.html
+Music			mtec1002-lab-03
+New Unity Project	mtec1003-lab-03
+ent-v314-010:~ student$ nano hello.sh
+ent-v314-010:~ student$ nano hello.sh
+ent-v314-010:~ student$ ./hello.sh
+Adlm			Pictures		mtec1003-lab-03.tar.gz
+Adobe			Public			nano.save
+Applications		QLData			pymel.log
+DavidC			Things			steel
+Dcalixto		aardvark		stuff
+Desktop			backup			sum.html
+Documents		copy_to_backup.sh.	temp.txt
+Downloads		foolingAround.html	tempfile.txt
+Library			hello.sh		tempt.txt
+MPLABXProjects		ipe.properties		test
+MT			isus			xgen
+Movies			lab4			yumilka1.html
+Music			mtec1002-lab-03
+New Unity Project	mtec1003-lab-03
 
 ==========
 18.  Save this file in the repository that you created from parts 1 and 2.
